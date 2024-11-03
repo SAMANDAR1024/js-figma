@@ -1,0 +1,117 @@
+header {
+  color: white;
+  .container {
+    padding: 15px 50px;
+    background-image: url(/images/img/bacgraund.png);
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 123px;
+      .nav-content {
+        a {
+          transition: all 1s;
+          margin-left: 20px;
+          color: white;
+          text-decoration: none;
+          font-family: "Roboto";
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 18.34px;
+          text-align: left;
+          &:hover {
+            color: #9c85d7;
+          }
+        }
+        button {
+          transition: all 1s;
+          width: 150px;
+          margin-left: 20px;
+          background-color: #7140eb;
+          color: white;
+          border: none;
+          font-family: "Roboto sans-serif";
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 18.34px;
+          padding: 10px 20px;
+          border-radius: 25px;
+          cursor: pointer;
+          &:hover {
+            background-color: #9c85d7;
+          }
+          &:focus {
+            outline: none;
+          }
+          &:active {
+            background-color: #9c85d7;
+            scale: 0.5;
+          }
+        }
+      }
+    }
+    .hero {
+      margin: 0 auto;
+      h1 {
+        font-family: Roboto;
+        font-size: 99px;
+        font-weight: 400;
+        line-height: 111.19px;
+        // letter-spacing: 5px;
+        text-align: center;
+        // margin-top: 153px;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 23.24px;
+        text-align: center;
+        margin-top: 30px;
+      }
+      h4 {
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 23.24px;
+        text-align: center;
+      }
+      .hero-button {
+        // .hero-button {
+            display: block;
+            transition: all 1s;
+            width: 250px;
+            // margin-top: 50px;
+        
+            background-color: #7140eb;
+            color: white;
+            border: none;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 18.34px;
+            text-align: center;
+        
+            padding: 10px 20px;
+            border-radius: 25px;
+            margin: 0 auto; 
+        
+            cursor: pointer;
+margin-bottom: 150px;
+margin-top: 20px;
+        // }
+        
+
+        cursor: pointer;
+        &:hover {
+          background-color: #9c85d7;
+        }
+
+        &:active {
+          background-color: #9c85d7;
+          scale: 0.5;
+        }
+      }
+    }
+  }
+}

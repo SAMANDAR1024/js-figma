@@ -1,0 +1,262 @@
+main {
+  .container {
+    padding: 0 10px;
+    background-color: white;
+    .sec1 {
+      display: flex;
+      padding-top: 60px;
+      background-color: white;
+      .sec1-content {
+        h2 {
+          font-family: Roboto;
+          font-size: 67px;
+          font-weight: 400;
+          line-height: 66.75px;
+          text-align: left;
+          //   width: 400px;
+          margin-bottom: 50px;
+        }
+        p {
+          font-family: Roboto;
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 34.42px;
+          padding-left: 50px;
+          margin-bottom: 20px;
+          color: #49464f;
+        }
+        .sec1-button {
+          // .hero-button {
+          //   display: block;
+
+          transition: all 1s;
+          width: 200px;
+          // margin-top: 50px;
+
+          background-color: #7140eb;
+          color: white;
+          border: none;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 18.34px;
+          text-align: center;
+
+          padding: 20px 20px;
+          border-radius: 30px;
+          margin: 0 auto;
+
+          cursor: pointer;
+          margin-bottom: 50px;
+          margin-top: 40px;
+          margin-left: 50px;
+          // }
+
+          cursor: pointer;
+          &:hover {
+            background-color: #9c85d7;
+          }
+
+          &:active {
+            background-color: #9c85d7;
+            scale: 0.5;
+          }
+        }
+      }
+      .sec1-img {
+        width: 766px;
+        height: 359px;
+        top: 956px;
+        left: 514px;
+        gap: 0px;
+        opacity: 0px;
+      }
+    }
+  }
+  .container {
+    .sec2 {
+      background-color: #f5f5f7;
+      padding: 50px;
+      .sec2-h2 {
+        font-family: Roboto;
+        font-size: 67px;
+        font-weight: 400;
+        line-height: 66.75px;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+      .sec2-p {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.82px;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      .sec2-cards {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 40px;
+        .sec2-card {
+          // padding: 50px;
+          border-radius: 20px;
+          background-color: white;
+          padding: 30px;
+          .card-text {
+            display: flex;
+            gap: 10px;
+            align-items: center !important;
+            margin-bottom: 10px;
+            p {
+              color: #49464f;
+            }
+            .card-button {
+              transition: all 1s;
+              width: 120px;
+              background-color: #f1eef8;
+              color: #7140eb;
+              border: none;
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              //   text-align: left;
+              // text-decoration: none;
+
+              padding: 3px;
+              border-radius: 30px;
+              cursor: pointer;
+              a {
+                text-decoration: none;
+                color: #7140eb;
+              }
+              &:hover {
+                background-color: #9c85d7;
+              }
+              &:active {
+                background-color: #9c85d7;
+                scale: 0.5;
+              }
+            }
+          }
+          h2 {
+            color: #49464f;
+            font-family: Roboto;
+            font-size: 29px;
+            font-weight: 400;
+            line-height: 34.42px;
+            text-align: left;
+          }
+          p {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #49464f;
+            margin-bottom: 10px;
+          }
+          .card-button-two {
+            transition: all 1s;
+            width: 180px;
+            // margin-top: 50px;
+
+            background-color: transparent;
+            // color: white;
+            border: 1px solid #000;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            // text-align: center;
+
+            padding: 20px;
+            border-radius: 30px;
+            // margin: 0 auto;
+
+            cursor: pointer;
+            margin-bottom: 20px;
+
+            // }
+
+            cursor: pointer;
+            &:hover {
+              background-color: #9c85d7;
+            }
+
+            &:active {
+              background-color: #9c85d7;
+              scale: 0.5;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ride-section {
+    background-color: #f5f5f7;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    padding: 20px;
+    justify-content: center;
+
+    &__text {
+      h1 {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        width: 300px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        color: #666;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        width: 300px;
+      }
+    }
+
+    &__button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: #333;
+      background: none;
+      border: 2px solid #333;
+      border-radius: 25px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      &:active {
+        background-color: #333;
+        transform: scale(0.9);
+        color: #fff;
+        border-color: #333;
+      }
+
+      span {
+        font-size: 1.2rem;
+      }
+    }
+
+    &__image {
+      img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+    }
+  }
+  
+}

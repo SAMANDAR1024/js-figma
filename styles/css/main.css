@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+header {
+  color: white;
+}
+header .container {
+  padding: 15px 50px;
+  background-image: url(/images/img/bacgraund.png);
+}
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 123px;
+}
+header .container nav .nav-content a {
+  transition: all 1s;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18.34px;
+  text-align: left;
+}
+header .container nav .nav-content a:hover {
+  color: #9c85d7;
+}
+header .container nav .nav-content button {
+  transition: all 1s;
+  width: 150px;
+  margin-left: 20px;
+  background-color: #7140eb;
+  color: white;
+  border: none;
+  font-family: "Roboto sans-serif";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18.34px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+header .container nav .nav-content button:hover {
+  background-color: #9c85d7;
+}
+header .container nav .nav-content button:focus {
+  outline: none;
+}
+header .container nav .nav-content button:active {
+  background-color: #9c85d7;
+  scale: 0.5;
+}
+header .container .hero {
+  margin: 0 auto;
+}
+header .container .hero h1 {
+  font-family: Roboto;
+  font-size: 99px;
+  font-weight: 400;
+  line-height: 111.19px;
+  text-align: center;
+}
+header .container .hero p {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 23.24px;
+  text-align: center;
+  margin-top: 30px;
+}
+header .container .hero h4 {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 23.24px;
+  text-align: center;
+}
+header .container .hero .hero-button {
+  display: block;
+  transition: all 1s;
+  width: 250px;
+  background-color: #7140eb;
+  color: white;
+  border: none;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18.34px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 150px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+header .container .hero .hero-button:hover {
+  background-color: #9c85d7;
+}
+header .container .hero .hero-button:active {
+  background-color: #9c85d7;
+  scale: 0.5;
+}
+
+main .container {
+  padding: 0 10px;
+  background-color: white;
+}
+main .container .sec1 {
+  display: flex;
+  padding-top: 60px;
+  background-color: white;
+}
+main .container .sec1 .sec1-content h2 {
+  font-family: Roboto;
+  font-size: 67px;
+  font-weight: 400;
+  line-height: 66.75px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+main .container .sec1 .sec1-content p {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34.42px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  color: #49464f;
+}
+main .container .sec1 .sec1-content .sec1-button {
+  transition: all 1s;
+  width: 200px;
+  background-color: #7140eb;
+  color: white;
+  border: none;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18.34px;
+  text-align: center;
+  padding: 20px 20px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+main .container .sec1 .sec1-content .sec1-button:hover {
+  background-color: #9c85d7;
+}
+main .container .sec1 .sec1-content .sec1-button:active {
+  background-color: #9c85d7;
+  scale: 0.5;
+}
+main .container .sec1 .sec1-img {
+  width: 766px;
+  height: 359px;
+  top: 956px;
+  left: 514px;
+  gap: 0px;
+  opacity: 0px;
+}
+main .container .sec2 {
+  background-color: #f5f5f7;
+  padding: 50px;
+}
+main .container .sec2 .sec2-h2 {
+  font-family: Roboto;
+  font-size: 67px;
+  font-weight: 400;
+  line-height: 66.75px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+main .container .sec2 .sec2-p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.82px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+main .container .sec2 .sec2-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+main .container .sec2 .sec2-cards .sec2-card {
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px;
+}
+main .container .sec2 .sec2-cards .sec2-card .card-text {
+  display: flex;
+  gap: 10px;
+  align-items: center !important;
+  margin-bottom: 10px;
+}
+main .container .sec2 .sec2-cards .sec2-card .card-text p {
+  color: #49464f;
+}
+main .container .sec2 .sec2-cards .sec2-card .card-text .card-button {
+  transition: all 1s;
+  width: 120px;
+  background-color: #f1eef8;
+  color: #7140eb;
+  border: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 3px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+main .container .sec2 .sec2-cards .sec2-card .card-text .card-button a {
+  text-decoration: none;
+  color: #7140eb;
+}
+main .container .sec2 .sec2-cards .sec2-card .card-text .card-button:hover {
+  background-color: #9c85d7;
+}
+main .container .sec2 .sec2-cards .sec2-card .card-text .card-button:active {
+  background-color: #9c85d7;
+  scale: 0.5;
+}
+main .container .sec2 .sec2-cards .sec2-card h2 {
+  color: #49464f;
+  font-family: Roboto;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 34.42px;
+  text-align: left;
+}
+main .container .sec2 .sec2-cards .sec2-card p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #49464f;
+  margin-bottom: 10px;
+}
+main .container .sec2 .sec2-cards .sec2-card .card-button-two {
+  transition: all 1s;
+  width: 180px;
+  background-color: transparent;
+  border: 1px solid #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+main .container .sec2 .sec2-cards .sec2-card .card-button-two:hover {
+  background-color: #9c85d7;
+}
+main .container .sec2 .sec2-cards .sec2-card .card-button-two:active {
+  background-color: #9c85d7;
+  scale: 0.5;
+}
+main .ride-section {
+  background-color: #f5f5f7;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  padding: 20px;
+  justify-content: center;
+}
+main .ride-section__text h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  width: 300px;
+}
+main .ride-section__text p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  width: 300px;
+}
+main .ride-section__button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #333;
+  background: none;
+  border: 2px solid #333;
+  border-radius: 25px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+main .ride-section__button:hover {
+  background-color: #333;
+  color: #fff;
+}
+main .ride-section__button:active {
+  background-color: #333;
+  transform: scale(0.9);
+  color: #fff;
+  border-color: #333;
+}
+main .ride-section__button span {
+  font-size: 1.2rem;
+}
+main .ride-section__image img {
+  width: 100%;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F5F5F7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 123px;
+}/*# sourceMappingURL=main.css.map */
